@@ -56,7 +56,7 @@ def buscar_passagens():
     else:
         print("✈️ Nenhuma passagem encontrada no momento.")
 
-if _name_ == "_main_":
+if _name_ == "__main__":
     enviar_alerta("🤖 Bot de monitoramento iniciado!")
     while True:
         buscar_passagens()
