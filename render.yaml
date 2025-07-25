@@ -3,4 +3,4 @@ services:
     name: monitor-passagens-azul
     env: python
     buildCommand: ""
-    startCommand: python monitor_azul_bot.py
+    startCommand: monitor_azul_bot.py
